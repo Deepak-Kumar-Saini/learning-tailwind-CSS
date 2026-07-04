@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Tailwind CSS card</title>
 </head>
-<body>
-    
+
+<body class="flex items-center justify-center h-screen">
+    <div class="card-container ">
+        <div class="card border-2 rounded-xl w-[70vw] flex flex-col items-center p-10">
+            <div class="logo mb-5">
+                <i class="fa-brands fa-twitter text-8xl"></i>
+            </div>
+            <h1 class="text-4xl uppercase font-bold mb-5">twitter</h1>
+            <p class="text-center font-semibold mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ullam omnis! Totam doloremque iure
+                atque est error doloribus labore commodi.
+            </p>
+            <button type="button" class="border-1 p-1 w-[100%] rounded-full text-xl uppercase font-semibold">read more</button>
+        </div>
+    </div>
 </body>
+
 </html>
